@@ -3,6 +3,7 @@ import RightLeaf from "@/assets/RightLeaf";
 import RightBigLeaf from "@/assets/RightBigLeaf";
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
+import OurProductsSection from "@/components/OurProductsSection";
 
 export default function Home() {
     return (
@@ -12,6 +13,9 @@ export default function Home() {
 
             {/* About Section */}
             <AboutSection />
+
+            {/* Our Products Section */}
+            <OurProductsSection />
         </>
     );
 }
