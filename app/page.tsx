@@ -4,6 +4,7 @@ import RightBigLeaf from "@/assets/RightBigLeaf";
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
 import OurProductsSection from "@/components/OurProductsSection";
+import ServicesSection from "@/components/ServicesSection";
 
 export default function Home() {
     return (
@@ -16,6 +17,8 @@ export default function Home() {
 
             {/* Our Products Section */}
             <OurProductsSection />
+
+            <ServicesSection />
         </>
     );
 }
