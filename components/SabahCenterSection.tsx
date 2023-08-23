@@ -20,7 +20,7 @@ const SabahCenterSection = () => {
                 <div className="flex w-full justify-end mb-12">
                     <RightLeaf />
                 </div>
-                <h2 className="text-right text-green-500 text-[36px] font-bold">
+                <h2 className="text-right text-green-600 text-[36px] font-bold">
                     تعرف علي مركز الصباح
                 </h2>
                 <div className="  text-right text-neutral-600 text-xl font-normal leading-9">

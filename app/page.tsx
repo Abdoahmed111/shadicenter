@@ -6,6 +6,7 @@ import AboutSection from "@/components/AboutSection";
 import OurProductsSection from "@/components/OurProductsSection";
 import ServicesSection from "@/components/ServicesSection";
 import SabahCenterSection from "@/components/SabahCenterSection";
+import ContactUSection from "@/components/ContactUSection";
 
 export default function Home() {
     return (
@@ -19,10 +20,14 @@ export default function Home() {
             {/* Our Products Section */}
             <OurProductsSection />
 
+            {/* Services Section */}
             <ServicesSection />
 
             {/* Sabah Center Section */}
             <SabahCenterSection />
+
+            {/* Contact Us section */}
+            <ContactUSection />
         </>
     );
 }
