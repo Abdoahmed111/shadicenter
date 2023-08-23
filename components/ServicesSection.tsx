@@ -37,10 +37,10 @@ const ServicesSection = () => {
                     خدماتنا
                 </h2>
 
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-32 gap-y-24">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-32 gap-y-24 mx-8 my-8 md:my-0 md:mx-0">
                     {services.map((service, index) => (
                         <div
-                            className=" bg-white rounded-lg h-56 flex flex-col justify-center items-center gap-y-6"
+                            className=" bg-white rounded-lg h-56 flex flex-col justify-center items-center gap-y-4 md:gap-y-6"
                             key={index}>
                             <div className="bg-emerald-50 rounded-full shadow w-[172px] h-[172px] flex justify-center items-center -mt-28">
                                 <ServiceIcon icon={service.icon} />
