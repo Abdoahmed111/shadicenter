@@ -8,9 +8,9 @@ const ContactUSection = () => {
                 تواصل معنا
             </h2>
 
-            <div className="flex justify-between items-start w-full mt-16">
+            <div className="flex flex-col gap-6 md:gap-0 md:flex-row justify-between items-start w-full mt-16">
                 <div className="flex justify-start items-center gap-6">
-                    <div className="w-[67px] h-[68px] bg-green-600 rounded-md flex justify-center items-center">
+                    <div className="w-16 h-16 bg-green-600 rounded-md flex justify-center items-center">
                         <svg
                             width="35"
                             height="34"
@@ -24,16 +24,16 @@ const ContactUSection = () => {
                         </svg>
                     </div>
                     <div>
-                        <div className="text-right text-black text-xl font-semibold">
+                        <p className="text-right text-black text-xl font-semibold">
                             العنوان
-                        </div>
-                        <div className="text-right text-neutral-400 text-base font-normal">
+                        </p>
+                        <p className="text-right text-neutral-400 text-base font-normal">
                             ش . الامير محمد متفرع من ميدان الجواد الابيض
-                        </div>
+                        </p>
                     </div>
                 </div>
                 <div className="flex justify-start items-center gap-6">
-                    <div className="w-[67px] h-[68px] bg-green-600 rounded-md flex justify-center items-center">
+                    <div className="w-16 h-16 bg-green-600 rounded-md flex justify-center items-center">
                         <svg
                             width="34"
                             height="34"
@@ -47,19 +47,24 @@ const ContactUSection = () => {
                         </svg>
                     </div>
                     <div>
-                        <div className="text-right text-black text-xl font-semibold">
+                        <p className="text-right text-black text-xl font-semibold">
                             رقم الواتساب
-                        </div>
-                        <div className="text-right text-neutral-400 text-base font-normal">
+                        </p>
+                        <p className="text-right text-neutral-400 text-base font-normal">
                             +0992575422134
-                        </div>
+                        </p>
                     </div>
                     <a
                         href="#"
-                        className="text-md font-bold text-green-600 px-16 py-4 flex justify-center items-center border border-green-500 rounded-full hover:border-2 transition-all ease-in-out cursor-pointer">
+                        className="text-md font-bold text-green-600 px-16 py-4 hidden md:flex justify-center items-center border border-green-500 rounded-full hover:border-2 transition-all ease-in-out cursor-pointer">
                         تواصل معنا
                     </a>
                 </div>
+                <a
+                    href="#"
+                    className="text-md font-bold text-green-600 px-16 py-4 flex md:hidden justify-center items-center border border-green-500 rounded-full hover:border-2 transition-all ease-in-out cursor-pointer">
+                    تواصل معنا
+                </a>
             </div>
         </div>
     );

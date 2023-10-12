@@ -33,10 +33,10 @@ const HeroSection = () => {
                     <RightLeaf />
                 </div>
                 <div className="text-right">
-                    <span className="text-black text-[36px] font-bold">
+                    <span className="text-black text-4xl font-bold">
                         اهلا بيكم في
                     </span>
-                    <span className="text-green-500 text-[36px] font-bold">
+                    <span className="text-green-500 text-4xl font-bold">
                         {" "}
                         مركز شادي للطب البديل
                     </span>

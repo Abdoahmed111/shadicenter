@@ -13,7 +13,7 @@ const OurProductsSection = () => {
                 <div className="flex w-full justify-start mb-12">
                     <RightLeaf />
                 </div>
-                <h2 className="text-right text-green-500 text-[36px] font-bold">
+                <h2 className="text-right text-green-500 text-4xl font-bold">
                     منتجاتنا
                 </h2>
                 <div className="text-right text-neutral-600 text-xl font-normal leading-9">

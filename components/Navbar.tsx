@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "@/app/styles";
+import Link from "next/link";
 
 const Navbar = () => {
     return (
@@ -26,33 +27,39 @@ const Navbar = () => {
                             tabIndex={0}
                             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                             <li>
-                                <a className="text-center text-black text-base font-bold hover:text-green-600 hover:bg-transparent">
+                                <Link
+                                    href="/"
+                                    className="text-center text-black text-base font-bold hover:text-green-600 hover:bg-transparent">
                                     الرئيسية
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a className="text-center text-black text-base font-bold hover:text-green-600 hover:bg-transparent">
+                                <Link
+                                    href="/dr-alaa"
+                                    className="text-center text-black text-base font-bold hover:text-green-600 hover:bg-transparent">
                                     د / علاء
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a className="text-center text-black text-base font-bold hover:text-green-600 hover:bg-transparent">
+                                <Link
+                                    href="/products"
+                                    className="text-center text-black text-base font-bold hover:text-green-600 hover:bg-transparent">
                                     منتجاتنا
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a
+                                <Link
                                     className="text-center text-black text-base font-bold hover:text-green-600 hover:bg-transparent"
-                                    href="#">
+                                    href="/services">
                                     خدماتنا
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a
+                                <Link
                                     className="text-center text-black text-base font-bold hover:text-green-600 hover:bg-transparent"
-                                    href="#">
+                                    href="/sabah-center">
                                     مركز الصباح
-                                </a>
+                                </Link>
                             </li>
                             <li>
                                 <a
@@ -68,38 +75,44 @@ const Navbar = () => {
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
                         <li>
-                            <a className="flex flex-col group text-center text-white text-base font-bold hover:text-black hover:bg-transparent">
+                            <Link
+                                href="/"
+                                className="flex flex-col group text-center text-white text-base font-bold hover:text-black hover:bg-transparent">
                                 الرئيسية
                                 <div className="w-[30px] invisible group-hover:visible h-1.5 bg-black rounded" />
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a className="flex flex-col group text-center text-white text-base font-bold hover:text-black hover:bg-transparent">
+                            <Link
+                                href="/dr-alaa"
+                                className="flex flex-col group text-center text-white text-base font-bold hover:text-black hover:bg-transparent">
                                 د / علاء
                                 <div className="w-[30px] invisible group-hover:visible h-1.5 bg-black rounded" />
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a className="flex flex-col group text-center text-white text-base font-bold hover:text-black hover:bg-transparent">
+                            <Link
+                                href="/products"
+                                className="flex flex-col group text-center text-white text-base font-bold hover:text-black hover:bg-transparent">
                                 منتجاتنا
                                 <div className="w-[30px] invisible group-hover:visible h-1.5 bg-black rounded" />
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a
+                            <Link
                                 className="flex flex-col group text-center text-white text-base font-bold hover:text-black hover:bg-transparent"
-                                href="#">
+                                href="/services">
                                 خدماتنا
                                 <div className="w-[30px] invisible group-hover:visible h-1.5 bg-black rounded" />
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a
+                            <Link
                                 className="flex flex-col group text-center text-white text-base font-bold hover:text-black hover:bg-transparent"
-                                href="#">
+                                href="/sabah-center">
                                 مركز الصباح
                                 <div className="w-[30px] invisible group-hover:visible h-1.5 bg-black rounded" />
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                 </div>

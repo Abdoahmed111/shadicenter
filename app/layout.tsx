@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Cairo } from "next/font/google";
+import Footer from "@/components/Footer";
 
 const cairo = Cairo({ subsets: [] });
 
@@ -21,6 +22,7 @@ export default function RootLayout({
                 <main>
                     <Navbar />
                     {children}
+                    <Footer />
                 </main>
             </body>
         </html>
