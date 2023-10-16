@@ -8,7 +8,7 @@ import MassageIcon from "@/assets/MassageIcon";
 import ElectromagneticIcon from "@/assets/ElectromagneticIcon";
 import HegamaIcon from "@/assets/HegamaIcon";
 
-const ServiceIcon = ({ icon }) => {
+const ServiceIcon = ({ icon }: { icon: string }) => {
     switch (icon) {
         case "bee":
             return <BeeIcon />;
