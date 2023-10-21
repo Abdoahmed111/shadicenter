@@ -50,7 +50,7 @@ const Navbar = () => {
                             <li>
                                 <Link
                                     className="text-center text-black text-base font-bold hover:text-green-600 hover:bg-transparent"
-                                    href="/services">
+                                    href="#services">
                                     خدماتنا
                                 </Link>
                             </li>
@@ -101,7 +101,7 @@ const Navbar = () => {
                         <li>
                             <Link
                                 className="flex flex-col group text-center text-white text-base font-bold hover:text-black hover:bg-transparent"
-                                href="/services">
+                                href="#services">
                                 خدماتنا
                                 <div className="w-[30px] invisible group-hover:visible h-1.5 bg-black rounded" />
                             </Link>
@@ -117,7 +117,12 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn">تواصل معنا</a>
+                    <a
+                        target="_blank"
+                        href="https://wa.me/0992575422134"
+                        className={`${styles.ctaBtn} w-auto px-8 text-sm`}>
+                        تواصل معنا
+                    </a>
                 </div>
             </div>
         </div>

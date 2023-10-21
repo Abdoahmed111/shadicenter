@@ -1,6 +1,7 @@
 import styles from "@/app/styles";
 import RightBigLeaf from "@/assets/RightBigLeaf";
 import RightLeaf from "@/assets/RightLeaf";
+import Image from "next/image";
 
 const HeroSection = () => {
     return (
@@ -8,23 +9,35 @@ const HeroSection = () => {
             className={`${styles.boxWidth} flex flex-col md:flex-row justify-between items-center h-full mx-auto w-full gap-8 mt-24`}>
             <div>
                 <div className="flex gap-8 mb-8">
-                    <img
-                        className="w-[147px] md:w-[277px] h-[188px] md:h-[318px] rounded-[10px]"
-                        src="https://via.placeholder.com/277x318"
+                    <Image
+                        className="w-[147px] md:w-[277px] h-[188px] md:h-[318px] rounded-[10px] object-cover"
+                        src="/images/shadi-center2.jpeg"
+                        alt="Shadi Center"
+                        width={100}
+                        height={100}
                     />
-                    <img
-                        className="w-[188px] md:w-[308px] h-32 md:h-48 rounded-[10px]"
-                        src="https://via.placeholder.com/308x192"
+                    <Image
+                        className="w-[188px] md:w-[308px] h-32 md:h-48 rounded-[10px] object-cover"
+                        src="/images/shadi-center.jpeg"
+                        alt="Shadi Center"
+                        width={100}
+                        height={100}
                     />
                 </div>
                 <div className="flex gap-8">
-                    <img
-                        className="w-[105px] md:w-[225px] h-[195px] md:h-[265px] rounded-[10px]"
-                        src="https://via.placeholder.com/225x295"
+                    <Image
+                        className="w-[105px] md:w-[225px] h-[195px] md:h-[265px] rounded-[10px] object-cover"
+                        src="/images/shadi-center4.jpeg"
+                        alt="Shadi Center"
+                        width={100}
+                        height={100}
                     />
-                    <img
-                        className="-mt-16 md:-mt-32 w-[230px] md:w-[360px] h-[291px] md:h-[421px]  rounded-[10px]"
-                        src="https://via.placeholder.com/360x421"
+                    <Image
+                        className="-mt-16 md:-mt-32 w-[230px] md:w-[360px] h-[291px] md:h-[421px]  rounded-[10px] object-cover"
+                        src="/images/shadi-center3.jpeg"
+                        alt="Shadi Center"
+                        width={100}
+                        height={100}
                     />
                 </div>
             </div>
@@ -34,7 +47,7 @@ const HeroSection = () => {
                 </div>
                 <div className="text-right">
                     <span className="text-black text-4xl font-bold">
-                        اهلا بيكم في
+                        اهلا بكم في
                     </span>
                     <span className="text-green-500 text-4xl font-bold">
                         {" "}
@@ -42,8 +55,10 @@ const HeroSection = () => {
                     </span>
                 </div>
                 <div className="  text-right text-neutral-600 text-xl font-normal leading-9">
-                    اهلا بيكم في مركز شادي اهلا بيكم في مركز شادي <br />
-                    اهلا بيكم في مركز شادي اهلا بيكم في{" "}
+                    يوجد مكملات غذائية ومنتجات مكونة جميعها من اعشاب طبيعية
+                    <br />
+                    لتحسين وظائف الجسم والعمل علي امتداده بالنشاط الذي <br />
+                    يحتاجه الإنسان وتنشيط الدورة الدموية
                 </div>
                 <a href="#" className={`${styles.ctaBtn} mt-8`}>
                     تواصل معنا

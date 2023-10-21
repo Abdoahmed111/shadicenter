@@ -16,9 +16,11 @@ const OurProductsSection = () => {
                 <h2 className="text-right text-green-500 text-4xl font-bold">
                     منتجاتنا
                 </h2>
-                <div className="text-right text-neutral-600 text-xl font-normal leading-9">
-                    اهلا بيكم في مركز شادي اهلا بيكم في مركز شادي <br />
-                    اهلا بيكم في مركز شادي اهلا بيكم في{" "}
+                <div className="text-right text-neutral-600 text-xl font-normal leading-9 tracking-wider">
+                    يوجد لدينا مكمل غذائي امريكى لنقص الفيتامينات بالجسم A
+                    nutritional supplement for the whole body مثل نقص فيتامين د
+                    ومكمل أيضا للاوميجا3,6,9 ومكمل غذاءى لنقص الحديد بالجسم
+                    وزيوت طبيعيه لتساقط الشعر وايضا لنمو الشعر
                 </div>
                 <a href="#" className={`${styles.ctaBtn} mt-8`}>
                     اكتشف
