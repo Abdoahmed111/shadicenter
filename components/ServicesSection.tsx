@@ -44,14 +44,16 @@ const ServiceIcon = ({ icon }: { icon: string }) => {
 };
 
 const handleOpenModal = (id: number) => {
-    const modal = document.getElementById(`my_modal_${id}`);
+    const modal = document.getElementById(
+        `my_modal_${id}`
+    ) as HTMLDialogElement;
     modal?.showModal();
 };
 
 const ServicesSection = () => {
     return (
         <div
-            id="#services"
+            id="services"
             className="w-full bg-green-500 flex flex-col justify-center items-center py-20">
             <div className={`${styles.boxWidth}`}>
                 <h2 className="text-center text-white text-5xl font-bold">

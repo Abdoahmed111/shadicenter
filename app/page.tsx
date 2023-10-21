@@ -4,7 +4,6 @@ import OurProductsSection from "@/components/OurProductsSection";
 import ServicesSection from "@/components/ServicesSection";
 import SabahCenterSection from "@/components/SabahCenterSection";
 import ContactUSection from "@/components/ContactUSection";
-import Footer from "@/components/Footer";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {

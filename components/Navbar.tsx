@@ -48,11 +48,11 @@ const Navbar = () => {
                                 </Link>
                             </li>
                             <li>
-                                <Link
+                                <a
                                     className="text-center text-black text-base font-bold hover:text-green-600 hover:bg-transparent"
                                     href="#services">
                                     خدماتنا
-                                </Link>
+                                </a>
                             </li>
                             <li>
                                 <Link
@@ -99,12 +99,12 @@ const Navbar = () => {
                             </Link>
                         </li>
                         <li>
-                            <Link
+                            <a
                                 className="flex flex-col group text-center text-white text-base font-bold hover:text-black hover:bg-transparent"
                                 href="#services">
                                 خدماتنا
                                 <div className="w-[30px] invisible group-hover:visible h-1.5 bg-black rounded" />
-                            </Link>
+                            </a>
                         </li>
                         <li>
                             <Link
