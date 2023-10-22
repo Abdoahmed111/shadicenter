@@ -1,6 +1,7 @@
 import styles from "@/app/styles";
 import Image from "next/image";
 import DrAlaaImage from "@/assets/dr-alaa.png";
+import Link from "next/link";
 const AboutSection = () => {
     return (
         <div
@@ -21,9 +22,9 @@ const AboutSection = () => {
                     البديل والتكميلي مدير مركز شادى لطب الاعشاب ومدير مركز
                     الصباح للطب البديل
                 </p>
-                <a href="#" className={`${styles.ctaBtn}`}>
+                <Link href="/dr-alaa" className={`${styles.ctaBtn}`}>
                     اكتشف المزيد
-                </a>
+                </Link>
             </div>
         </div>
     );

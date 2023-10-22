@@ -2,6 +2,7 @@ import styles from "@/app/styles";
 import RightBigLeaf from "@/assets/RightBigLeaf";
 import RightLeaf from "@/assets/RightLeaf";
 import Image from "next/image";
+import Link from "next/link";
 
 const SabahCenterSection = () => {
     return (
@@ -36,9 +37,9 @@ const SabahCenterSection = () => {
                     والمراكز الألمانية وتعتبر من الإجراءات التكميلية وتستخدم من
                     اجل الكثير من الأمراض،
                 </div>
-                <a href="#" className={`${styles.ctaBtn} mt-8`}>
+                <Link href="/sabah-center" className={`${styles.ctaBtn} mt-8`}>
                     اكتشف
-                </a>
+                </Link>
                 <div className="flex w-full justify-start mt-20">
                     <RightBigLeaf />
                 </div>

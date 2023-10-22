@@ -44,7 +44,10 @@ const DrAlaa = () => {
                         للطب البديل والتكميلي <br />
                         مدير مركز شادى لطب الاعشاب ومدير مركز الصباح للطب البديل
                     </div>
-                    <a href="#" className={`${styles.ctaBtn} mt-8`}>
+                    <a
+                        target="_blank"
+                        href="https://wa.me/0992575422134"
+                        className={`${styles.ctaBtn} mt-8`}>
                         تواصل معنا
                     </a>
                 </div>

@@ -60,7 +60,10 @@ const HeroSection = () => {
                     لتحسين وظائف الجسم والعمل علي امتداده بالنشاط الذي <br />
                     يحتاجه الإنسان وتنشيط الدورة الدموية
                 </div>
-                <a href="#" className={`${styles.ctaBtn} mt-8`}>
+                <a
+                    target="_blank"
+                    href="https://wa.me/0992575422134"
+                    className={`${styles.ctaBtn} mt-8`}>
                     تواصل معنا
                 </a>
                 <div className="flex w-full justify-start mt-20">

@@ -9,7 +9,7 @@ const Footer = () => {
                 <div className="w-full flex flex-col md:flex-row gap-y-8 md:gap-y-0 justify-between items-center">
                     <div className="flex justify-start items-center gap-4">
                         <Image
-                            src="/logo.png"
+                            src="/images/logo.png"
                             width={64}
                             height={64}
                             alt="logo"

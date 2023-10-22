@@ -55,13 +55,15 @@ const ContactUSection = () => {
                         </p>
                     </div>
                     <a
-                        href="#"
+                        target="_blank"
+                        href="https://wa.me/0992575422134"
                         className="text-md font-bold text-green-600 px-16 py-4 hidden md:flex justify-center items-center border border-green-500 rounded-full hover:border-2 transition-all ease-in-out cursor-pointer">
                         تواصل معنا
                     </a>
                 </div>
                 <a
-                    href="#"
+                    target="_blank"
+                    href="https://wa.me/0992575422134"
                     className="text-md font-bold text-green-600 px-16 py-4 flex md:hidden justify-center items-center border border-green-500 rounded-full hover:border-2 transition-all ease-in-out cursor-pointer">
                     تواصل معنا
                 </a>

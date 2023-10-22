@@ -4,6 +4,7 @@ import React from "react";
 import DrAlaaImage from "@/assets/products-img.jpeg";
 import RightLeaf from "@/assets/RightLeaf";
 import RightBigLeaf from "@/assets/RightBigLeaf";
+import Link from "next/link";
 
 const OurProductsSection = () => {
     return (
@@ -22,9 +23,9 @@ const OurProductsSection = () => {
                     ومكمل أيضا للاوميجا3,6,9 ومكمل غذاءى لنقص الحديد بالجسم
                     وزيوت طبيعيه لتساقط الشعر وايضا لنمو الشعر
                 </div>
-                <a href="#" className={`${styles.ctaBtn} mt-8`}>
+                <Link href="/products" className={`${styles.ctaBtn} mt-8`}>
                     اكتشف
-                </a>
+                </Link>
                 <div className="flex w-full justify-end mt-12">
                     <RightBigLeaf />
                 </div>
