@@ -50,7 +50,7 @@ const Navbar = () => {
                             <li>
                                 <a
                                     className="text-center text-black text-base font-bold hover:text-green-600 hover:bg-transparent"
-                                    href="#services">
+                                    href="https://shadicenter.net/#services">
                                     خدماتنا
                                 </a>
                             </li>
@@ -106,7 +106,7 @@ const Navbar = () => {
                         <li>
                             <a
                                 className="flex flex-col group text-center text-white text-base font-bold hover:text-black hover:bg-transparent"
-                                href="#services">
+                                href="https://shadicenter.net/#services">
                                 خدماتنا
                                 <div className="w-[30px] invisible group-hover:visible h-1.5 bg-black rounded" />
                             </a>
