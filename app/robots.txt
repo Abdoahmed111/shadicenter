@@ -1,4 +1,7 @@
-User-Agent: *
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+User-agent: *
 Allow: /
 
-Sitemap: https://www.shadicenter.net/sitemap.xml
+Sitemap: https://shadicenter.net/sitemap.xml
