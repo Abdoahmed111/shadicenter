@@ -1,5 +1,6 @@
 import styles from "@/app/styles";
 import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
     return (
@@ -22,19 +23,21 @@ const Footer = () => {
 
                     <ul className="flex justify-start items-start gap-x-4 md:gap-x-8">
                         <li className="text-right text-white text-md font-semibold hover:text-black">
-                            <a href="">الرئيسية</a>
+                            <Link href="/">الرئيسية</Link>
                         </li>
                         <li className="text-right text-white text-md font-semibold hover:text-black">
-                            <a href="">د/علاء</a>
+                            <Link href="/dr-alaa">د/علاء</Link>
                         </li>
                         <li className="text-right text-white text-md font-semibold hover:text-black">
-                            <a href="">منتجاتنا</a>
+                            <Link href="/products">منتجاتنا</Link>
                         </li>
                         <li className="text-right text-white text-md font-semibold hover:text-black">
-                            <a href="">خدماتنا</a>
+                            <a href="https://shadicenter.net/#services">
+                                خدماتنا
+                            </a>
                         </li>
                         <li className="text-right text-white text-md font-semibold hover:text-black">
-                            <a href="">مركز الصباح</a>
+                            <Link href="/sabah-center">مركز الصباح</Link>
                         </li>
                     </ul>
                 </div>
