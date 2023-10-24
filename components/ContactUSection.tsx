@@ -1,6 +1,12 @@
 import styles from "@/app/styles";
 
-const ContactUSection = () => {
+const ContactUSection = ({
+    address,
+    mobile,
+}: {
+    address: string;
+    mobile: string;
+}) => {
     return (
         <div
             className={`${styles.boxWidth} px-12 md:px-24 pb-12 md:pb-0 my-32 flex flex-col justify-center items-center mt-32`}>
@@ -28,7 +34,7 @@ const ContactUSection = () => {
                             العنوان
                         </p>
                         <p className="text-right text-neutral-400 text-base font-normal">
-                            ش . الامير محمد متفرع من ميدان الجواد الابيض
+                            {address}
                         </p>
                     </div>
                 </div>
@@ -51,19 +57,19 @@ const ContactUSection = () => {
                             رقم الواتساب
                         </p>
                         <p className="text-right text-neutral-400 text-base font-normal">
-                            +0992575422134
+                            {mobile}
                         </p>
                     </div>
                     <a
                         target="_blank"
-                        href="https://wa.me/0992575422134"
+                        href={`https://wa.me/${mobile}`}
                         className="text-md font-bold text-green-600 px-16 py-4 hidden md:flex justify-center items-center border border-green-500 rounded-full hover:border-2 transition-all ease-in-out cursor-pointer">
                         تواصل معنا
                     </a>
                 </div>
                 <a
                     target="_blank"
-                    href="https://wa.me/0992575422134"
+                    href={`https://wa.me/${mobile}`}
                     className="text-md font-bold text-green-600 px-16 py-4 flex md:hidden justify-center items-center border border-green-500 rounded-full hover:border-2 transition-all ease-in-out cursor-pointer">
                     تواصل معنا
                 </a>

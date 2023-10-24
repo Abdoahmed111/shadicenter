@@ -31,7 +31,10 @@ export default function Home() {
             <SabahCenterSection />
 
             {/* Contact Us section */}
-            <ContactUSection />
+            <ContactUSection
+                address="حولي شارع تونس برج الفوزان أمام برج البغلى للاسفنج الدور الثالث"
+                mobile="0096566438659"
+            />
         </>
     );
 }

@@ -114,7 +114,10 @@ const SabahCenter = () => {
                 </div>
             </div>
 
-            <ContactUSection />
+            <ContactUSection
+                address="حولي شارع تونس برج عباس الهزيم بجوار البنك الأهلي والشؤون الدور الثاني"
+                mobile="0096560004943"
+            />
         </>
     );
 };

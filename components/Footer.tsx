@@ -60,7 +60,8 @@ const Footer = () => {
                                 العنوان
                             </p>
                             <p className="text-right text-white text-base font-normal">
-                                ش . الامير محمد متفرع من ميدان الجواد الابيض
+                                حولي شارع تونس برج الفوزان أمام برج البغلى
+                                للاسفنج الدور الثالث
                             </p>
                         </div>
                     </div>
@@ -81,9 +82,14 @@ const Footer = () => {
                             <p className="text-right text-white text-lg font-semibold">
                                 رقم الواتساب
                             </p>
-                            <p className="text-right text-white text-base font-normal">
-                                +0992575422134
-                            </p>
+                            <div>
+                                <p className="text-right text-white text-base font-normal">
+                                    +96566438659
+                                </p>
+                                <p className="text-right text-white text-base font-normal">
+                                    +96566677429
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
