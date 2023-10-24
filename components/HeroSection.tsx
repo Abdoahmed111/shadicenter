@@ -62,7 +62,7 @@ const HeroSection = () => {
                 </div>
                 <a
                     target="_blank"
-                    href="https://wa.me/0992575422134"
+                    href="https://wa.me/0096566438659"
                     className={`${styles.ctaBtn} mt-8`}>
                     تواصل معنا
                 </a>

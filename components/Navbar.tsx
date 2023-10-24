@@ -124,7 +124,7 @@ const Navbar = () => {
                 <div className="navbar-end">
                     <a
                         target="_blank"
-                        href="https://wa.me/0992575422134"
+                        href="https://wa.me/0096566438659"
                         className={`${styles.ctaBtn} w-auto px-8 text-sm`}>
                         تواصل معنا
                     </a>
